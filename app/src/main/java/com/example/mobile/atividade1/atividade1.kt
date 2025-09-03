@@ -19,6 +19,8 @@ fun String.interteETrocaVogal(): String {
     return invertido.replace(Regex("[aeiouAEIOU]"), "*")
 }
 
+//nao entendi a questao 5
+
 fun main() {
     //1 - uso
     println(maiorNumero(6, 1, 9))
