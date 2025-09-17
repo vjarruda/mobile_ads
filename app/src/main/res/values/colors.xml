@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fragment1">#422323</color>
+    <color name="fragment2">#429AA4</color>
+    <color name="fragment3">#9E8436</color>
 </resources>
