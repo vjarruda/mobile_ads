@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="modulo2.cineverse.HomeFragment"
+        android:label="Início">
+        <action
+            android:id="@+id/action_homeFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="modulo2.cineverse.FavoritesFragment"
+        android:label="Favoritos" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="modulo2.cineverse.ProfileFragment"
+        android:label="Perfil" />
+
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="modulo2.cineverse.MovieDetailFragment"
+        android:label="Detalhes do Filme">
+        <argument
+            android:name="movieTitle"
+            app:argType="string" />
+        <argument
+            android:name="movieYear"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
