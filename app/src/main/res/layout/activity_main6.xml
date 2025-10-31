@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/btnLoadMovies"
+    android:text="Buscar Filmes Populares"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+android:id="@+id/btnMovieDetails"
+android:text="Ver Detalhes de um Filme Aleatório"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp" />
+
+<TextView
+android:id="@+id/txtResult"
+android:text="Os resultados aparecerão aqui 🎥"
+android:textSize="18sp"
+android:gravity="center"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="32dp" />
+    </LinearLayout>
